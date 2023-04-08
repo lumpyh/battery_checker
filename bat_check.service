@@ -1,0 +1,5 @@
+[Unit]
+Description=Runs the battery test script 
+
+[Service]
+ExecStart=/usr/bin/bat_test.sh

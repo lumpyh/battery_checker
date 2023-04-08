@@ -1,0 +1,9 @@
+[Unit]
+Description=Run bat_test.sh once every minute
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+
+[Install]
+WantedBy=timer.target
+
